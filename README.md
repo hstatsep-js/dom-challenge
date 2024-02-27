@@ -3,11 +3,11 @@
 ## NOTES
 * You can preview how the files _should_ behave by clicking [here](https://hstatsep-js.github.io/dom-challenge/).
 * You will be writing your code in `index.html`. The rest of the files are for starter code _only_.
-* 2. Color Generator
+* _Color Generator_
   * There are 4 colors already provided for you in the JS.
-* 3. Password Generator
+* _Password Generator_
   * The words/symbols are already provided for you in the JS.
-* 6. Magazine Message Speller
+* _Magazine Message Speller_
   * The images you will need are in the `characters/` folder.
 
 ## DIRECTIONS
