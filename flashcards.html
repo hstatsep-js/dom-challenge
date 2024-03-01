@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <!--<link href="style.css" rel="stylesheet" type="text/css" />-->
+        <style>
+            /* CSS */
+
+            body {
+                padding-top: 30px;
+            }
+            
+            .card {
+                padding: 30px;
+                text-align: center;
+            }
+
+            .card-title {
+                padding-bottom: 10px;
+                display: block;
+            }
+
+            .hidden {
+                display: none;
+            }
+
+        </style>
+        
+        <title>DOM Challenge (Alternative)</title>
+    </head>
+    <body>
+        <!-- HTML -->
+        
+        <div class="container">
+
+            <h1>Flashcards</h1>
+            <h6>Click a card to flip it</h6>
+
+            <div class="row" id="flashcards">
+                <div class="card col-md-3">
+                    <h4 class="card-title">Example front</h4>
+                    <p class="card-text hidden">Example back</p>
+                </div>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+
+            <h3>Make a new card</h3>
+            <p>Front: <input type="text" id="newfront" value="New Front"></p>
+            <p>Back: <input type="text" id="newback" value="New Back"></p>
+            <button class="btn btn-success" id="add">Add</button>
+
+        </div>
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        <!--<script src="script.js"></script>-->
+        <script>
+            // JS
+
+            function _0x6f85(_0x4d50ad,_0x1ad64e){var _0x41812b=_0x4181();return _0x6f85=function(_0x6f85eb,_0x1cdec0){_0x6f85eb=_0x6f85eb-0x18b;var _0xd92aa7=_0x41812b[_0x6f85eb];return _0xd92aa7;},_0x6f85(_0x4d50ad,_0x1ad64e);}var _0xe0ef59=_0x6f85;function _0x4181(){var _0x30273a=['innerHTML','321936pLmTuh','35QWKEDo','addEventListener','</p>','180267xPyrEv','2PjsyUD','#newfront','1000611xeBLEQ','appendChild','div','11oRVrFv','toggle','7834480ioPkTN','16XWgrNT','click','2543611cLAWCw','createElement','74079ztaJYg','add','#newback','classList','</h4><p\x20class=\x22card-text\x20hidden\x22>','querySelector','value','.card','77388jmGBrP','hidden'];_0x4181=function(){return _0x30273a;};return _0x4181();}(function(_0xac8df5,_0x1fbc61){var _0x28ef4a=_0x6f85,_0x20ec37=_0xac8df5();while(!![]){try{var _0x1f62c1=-parseInt(_0x28ef4a(0x18e))/0x1+parseInt(_0x28ef4a(0x19e))/0x2*(parseInt(_0x28ef4a(0x19d))/0x3)+-parseInt(_0x28ef4a(0x199))/0x4+-parseInt(_0x28ef4a(0x19a))/0x5*(-parseInt(_0x28ef4a(0x196))/0x6)+-parseInt(_0x28ef4a(0x18c))/0x7+-parseInt(_0x28ef4a(0x1a6))/0x8*(parseInt(_0x28ef4a(0x1a0))/0x9)+-parseInt(_0x28ef4a(0x1a5))/0xa*(-parseInt(_0x28ef4a(0x1a3))/0xb);if(_0x1f62c1===_0x1fbc61)break;else _0x20ec37['push'](_0x20ec37['shift']());}catch(_0x294abc){_0x20ec37['push'](_0x20ec37['shift']());}}}(_0x4181,0x2f3f9));function setupCard(_0x648d8){var _0x4ad48e=_0x6f85;_0x648d8[_0x4ad48e(0x19b)](_0x4ad48e(0x18b),function(){var _0x4a1d7a=_0x4ad48e;_0x648d8[_0x4a1d7a(0x193)]('h4')[_0x4a1d7a(0x191)][_0x4a1d7a(0x1a4)](_0x4a1d7a(0x197)),_0x648d8['querySelector']('p')[_0x4a1d7a(0x191)]['toggle'](_0x4a1d7a(0x197));});}setupCard(document[_0xe0ef59(0x193)](_0xe0ef59(0x195))),document[_0xe0ef59(0x193)]('#add')[_0xe0ef59(0x19b)](_0xe0ef59(0x18b),function(){var _0x25c8d6=_0xe0ef59,_0x3cf9af=document[_0x25c8d6(0x193)](_0x25c8d6(0x19f))[_0x25c8d6(0x194)],_0x50387b=document[_0x25c8d6(0x193)](_0x25c8d6(0x190))[_0x25c8d6(0x194)],_0x797796=document[_0x25c8d6(0x18d)](_0x25c8d6(0x1a2));_0x797796[_0x25c8d6(0x191)][_0x25c8d6(0x18f)]('card'),_0x797796[_0x25c8d6(0x191)]['add']('col-md-3'),_0x797796[_0x25c8d6(0x198)]='<h4\x20class=\x22card-title\x22>'+_0x3cf9af+_0x25c8d6(0x192)+_0x50387b+_0x25c8d6(0x19c),document[_0x25c8d6(0x193)]('#flashcards')[_0x25c8d6(0x1a1)](_0x797796),setupCard(_0x797796);});
+            
+        </script>
+    </body>
+</html>
